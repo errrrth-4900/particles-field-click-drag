@@ -1,0 +1,18 @@
+{
+  "name": "particles-field",
+  "version": "1.0.0",
+  "description": "Interactive particle field animation",
+  "scripts": {
+    "dev": "npx http-server dist -p 8080 --cors",
+    "build": "mkdir -p dist && cp src/script.js dist/"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "gsap": "^2.1.2",
+    "simplex-noise": "^2.4.0",
+    "stats.js": "^0.17.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+} 
